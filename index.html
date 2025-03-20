@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Selection after Class 10th for JNV mungeshpur students</title>
+    <!-- Link to External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="style.js"></script>
+<body>
+
+
+
+    <div class="container">
+        <h1>Stream Selection After 10th Grade</h1>
+        <p>Please fill in the form to select your stream and provide additional information.</p>
+
+        <form id="streamForm">
+          <h1>
+            <!-- Name -->
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required> </h1>
+          
+
+            <h1><!-- Stream Options -->
+            <label for="stream">Select Your Stream:</label>
+            <select id="stream" name="stream" required>
+                <option value="PCM">PCM (Physics, Chemistry, Maths)</option>
+                <option value="PCB">PCB (Physics, Chemistry, Biology)</option>
+                <option value="PCMB"> PCMB  (Physics,Chemistry,Maths,Biology)</option>
+                <option value="COMMERCE">Commerce</option>
+                <option value="ARTS">Arts</option>
+            </select></h1>
+
+            <h1><!-- Taking TC? Yes/No -->
+            <label for="takingTC">Are you taking TC (Transfer Certificate)?</label><br>
+            <input type="radio" id="yes" name="takingTC" value="Yes" required> Yes
+            <input type="radio" id="no" name="takingTC" value="No" required> No </h1>
+                    
+            <!-- Guidance to Classmates -->
+            <label for="guidance">Your Guidance for Classmates:</label>
+            <textarea id="guidance" name="guidance" rows="4" placeholder="Share your thoughts or advice with your classmates." required></textarea>
+
+            <!-- Submit Button -->
+            <button type="submit">Submit</button>
+        </form>
+        
+        <div id="formResponse" class="response" style="display:none;">
+            <h2>Thank you for your submission!</h2>
+            <p>We appreciate your feedback. Stay motivated!</p>
+        </div>
+    </div>
+
+    <!-- Link to External JS -->
+    <script src="script.js"></script>
+</body>
+</html>

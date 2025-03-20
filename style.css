@@ -1,0 +1,115 @@
+/* Basic page styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1; /* Light grey background */
+}
+
+/* Container styles */
+.container {
+    width: 60%;
+    margin: 50px auto;
+    background-color: #fff; /* White background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #f4f4f4;
+    background: linear-gradient(135deg, #ff6f61, #ff9a8b); /* Red to orange gradient background */
+}
+
+/* Form Title */
+h1 {
+    text-align: center;
+    color: #fff; /* White color for title */
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* Form Instructions */
+p {
+    text-align: center;
+    color: #fff; /* Light text for instructions */
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Label styles */
+label {
+    font-size: 18px;
+    color: #333;
+    display: block;
+    margin: 15px 0 5px;
+}
+
+/* Input, select, and textarea styles */
+input[type="text"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #ff6f61; /* Red border on focus */
+}
+
+/* Radio buttons styles */
+input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #ff6f61; /* Red accent color for radio buttons */
+}
+
+/* Submit button styles */
+button {
+    background-color: #ff6f61; /* Red background for button */
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff9a8b; /* Lighter red-orange on hover */
+}
+
+/* Response message styles */
+.response {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #eaf2f2;
+    padding: 20px;
+    border-radius: 10px;
+    color: #333;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Add spacing to form fields */
+input[type="text"],
+select,
+textarea {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Hover effect for links if you add any */
+a {
+    color: #e73221;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
